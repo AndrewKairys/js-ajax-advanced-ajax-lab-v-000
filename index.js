@@ -12,3 +12,4 @@ function showRepositories(event, data) {
   const repoList = template(repos);
   document.getElementById('repositories').innerHTML = repoList;
 }
+
